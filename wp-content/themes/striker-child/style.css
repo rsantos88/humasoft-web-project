@@ -1,0 +1,49 @@
+/*
+
+				Theme Name: Striker Child
+
+				Theme URI: https://www.humasoft.es
+
+				Author: Raúl de Santos Rico
+
+				Author URI: https://www.linkedin.com/in/raulsr988/
+
+				Description: Striker Child theme, created by Raúl de Santos Rico, Extend Striker template, designed for the website www.humasoft.es
+
+				Template: Striker
+
+				License: GNU General Public License v2 or later
+
+				License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+				Version: 1.0.0
+
+				Text Domain: Striker-child
+
+				*/
+
+
+/* CUSTOM CSS CODE GOES HERE */
+
+.site-title a{
+	font-size: 116%;
+}
+
+:root .has-very-dark-gray-color {
+    text-align: justify;
+	font-size: 2.1rem;
+	line-height: 31px;
+}
+
+.entry-title{
+	font-size: 3.4rem;
+	letter-spacing: 0.024em;
+	line-height: 1.4;
+	font-weight: 600;
+}
+	
+
+.entry-content{
+	text-align: justify;
+	line-height: 22px;
+}

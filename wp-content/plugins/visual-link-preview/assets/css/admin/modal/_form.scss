@@ -1,0 +1,75 @@
+// main: ../modal.scss
+
+.vlp-form-section {
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.vlp-form-line {
+    margin-bottom: 5px;
+
+    .vlp-form-label {
+        font-weight: bold;
+    }
+
+    .vlp-form-input {
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        input[type="radio"] {
+            margin: 0 5px 5px 0;
+            width: 16px;
+            height: 16px;
+        }
+
+        label {
+            vertical-align: top;
+        }
+    }
+
+    .vlp-form-description {
+        font-style: italic;
+        font-size: 12px;
+        color: #666;
+    }
+}
+
+#vlp-preview-loader-container {
+    margin-top: -20px;
+}
+
+@media only screen and (min-width: 783px) {
+    .vlp-form-section {
+        width: 100%;
+        max-width: 700px;
+        display: table;
+        margin-top: 0;
+    }
+
+    .vlp-form-line {
+        display: table-row;
+
+        .vlp-form-label,
+        .vlp-form-input,
+        .vlp-form-description {
+            display: table-cell;
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .vlp-form-label {
+            width: 20%;
+            text-align: right;
+        }
+        .vlp-form-input {
+            width: 50%;
+        }
+        .vlp-form-description {
+            width: 30%;
+        }
+    }
+}

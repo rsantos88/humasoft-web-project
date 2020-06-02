@@ -1,0 +1,45 @@
+.vlp-link-container {
+    position: relative;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .vlp-link-summary {
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+a.vlp-link {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+// Link reset
+a.vlp-link,
+a.vlp-link:link,
+a.vlp-link:visited,
+a.vlp-link:active,
+a.vlp-link:hover {
+    border: 0 !important;
+    background: 0 !important;
+    box-shadow: none !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    outline: 0 !important;
+    text-decoration: none !important;
+    transform: none !important;
+}

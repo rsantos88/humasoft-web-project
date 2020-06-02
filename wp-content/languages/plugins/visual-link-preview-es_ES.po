@@ -1,0 +1,286 @@
+# Translation of Plugins - Visual Link Preview - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Visual Link Preview - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-03 20:18:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Visual Link Preview - Development (trunk)\n"
+
+#: assets/js/blocks/visual-link-preview/edit/index.js:136
+msgid "Set content for this link in the sidebar."
+msgstr "Establece el contenido de este enlace en la barra lateral."
+
+#: assets/js/blocks/visual-link-preview/edit/ImageSelect.js:79
+msgid "Save image locally"
+msgstr "Guardar imagen localmente"
+
+#: assets/js/blocks/visual-link-preview/edit/ImageSelect.js:56
+msgid "Change Image"
+msgstr "Cambiar imagen"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:99
+msgid "Change template styling"
+msgstr "Cambiar el estilo de la plantilla"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:88
+msgid "Style"
+msgstr "Estilo"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:62
+msgid "Content"
+msgstr "Contenido"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:53
+msgid "Edit Post"
+msgstr "Editar entrada"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:52
+msgid "Internal Link"
+msgstr "Enlace interno"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:38
+msgid "Use Default from Settings"
+msgstr "Usar el valor por defecto desde los ajustes"
+
+#: assets/js/blocks/visual-link-preview/edit/ChooseType.js:58
+msgid "Use this URL"
+msgstr "Usar esta URL"
+
+#: assets/js/blocks/visual-link-preview/edit/ChooseType.js:41
+msgid "Or add a link to an external URL:"
+msgstr "O añade un enlace a una URL externa:"
+
+#: assets/js/blocks/visual-link-preview/edit/ChooseType.js:26
+msgid "Select a post on your website:"
+msgstr "Selecciona una entrada de tu web:"
+
+#: assets/js/blocks/visual-link-preview/index.js:17
+msgid "A visual link block for internal or external links."
+msgstr "Un bloque de enlace visual para enlaces internos o externos."
+
+#: includes/public/class-vlp-settings.php:49
+msgid "Settings"
+msgstr "Ajustes"
+
+#: templates/settings/settings.php:209
+msgid "Summary Color"
+msgstr "Color del resumen"
+
+#: templates/settings/settings.php:202
+msgid "Summary Font Size"
+msgstr "Tamaño de fuente del resumen"
+
+#: templates/settings/settings.php:196
+msgid "Title Color"
+msgstr "Color del título"
+
+#: templates/settings/settings.php:189
+msgid "Title Font Size"
+msgstr "Tamaño de fuente del título"
+
+#: templates/settings/settings.php:181
+msgid "Text"
+msgstr "Texto"
+
+#: templates/settings/settings.php:173
+msgid "Image Border Radius"
+msgstr "Radio de borde de imagen"
+
+#: templates/settings/settings.php:166
+msgid "Enter a thumbnail name or specific size."
+msgstr "Introduce un nombre de miniatura o un tamaño específico."
+
+#: templates/settings/settings.php:165
+msgid "Image Size"
+msgstr "Tamaño de imagen"
+
+#: templates/settings/settings.php:159
+msgid "Bottom"
+msgstr "Abajo"
+
+#: templates/settings/settings.php:158
+msgid "Top"
+msgstr "Arriba"
+
+#: templates/settings/settings.php:153
+msgid "Image Position"
+msgstr "Posición de la imagen"
+
+#: templates/settings/settings.php:133
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: templates/settings/settings.php:122
+msgid "Outset"
+msgstr "Exterior"
+
+#: templates/settings/settings.php:120
+msgid "Ridge"
+msgstr "Cresta"
+
+#: templates/settings/settings.php:119
+msgid "Groove"
+msgstr "Surco"
+
+#: templates/settings/settings.php:118
+msgid "Double"
+msgstr "Doble"
+
+#: templates/settings/settings.php:117
+msgid "Dotted"
+msgstr "Punteado"
+
+#: templates/settings/settings.php:116
+msgid "Dashed"
+msgstr "Guiones"
+
+#: templates/settings/settings.php:115
+msgid "Solid"
+msgstr "Sólido"
+
+#: templates/settings/settings.php:112
+msgid "Border Style"
+msgstr "Estilo del borde"
+
+#: templates/settings/settings.php:105
+msgid "Set to 0 to not use a border."
+msgstr "Establece 0 para no utilizar el borde."
+
+#: templates/settings/settings.php:104
+msgid "Border Width"
+msgstr "Ancho del borde"
+
+#: templates/settings/settings.php:97
+msgid "Border Radius"
+msgstr "Radio del borde"
+
+#: templates/settings/settings.php:89
+msgid "Border"
+msgstr "Borde"
+
+#: templates/settings/settings.php:81
+msgid "Padding"
+msgstr "Relleno"
+
+#: templates/settings/settings.php:75
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: templates/settings/settings.php:64 templates/settings/settings.php:157
+msgid "Right"
+msgstr "Derecha"
+
+#: templates/settings/settings.php:63
+msgid "Center"
+msgstr "Centro"
+
+#: templates/settings/settings.php:62 templates/settings/settings.php:156
+msgid "Left"
+msgstr "Izquierda"
+
+#: templates/settings/settings.php:59
+msgid "Alignment"
+msgstr "Alineación"
+
+#: templates/settings/settings.php:52
+msgid "Leave blank to net set a max width."
+msgstr "Déjalo en blanco para establecer un ancho máximo exacto."
+
+#: templates/settings/settings.php:51
+msgid "Max width"
+msgstr "Ancho máximo"
+
+#: templates/settings/settings.php:43
+msgid "Container"
+msgstr "Contenedor"
+
+#: templates/settings/settings.php:35
+msgid "Use Custom Styling"
+msgstr "Utiliza estilo personalizado"
+
+#: templates/settings/settings.php:19
+msgid "Default template to use for your visual links."
+msgstr "Plantilla por defecto a usar para tus enlaces visuales."
+
+#: templates/settings/settings.php:18
+msgid "Default Template"
+msgstr "Plantilla predeterminada"
+
+#: templates/settings/settings.php:7
+msgid "Use Visual Link Preview to create beautiful call to action links to your own posts or external websites."
+msgstr "Utiliza Visual Link Preview para crear bonitos enlaces de llamada a la acción a tus propias entradas o webs externas."
+
+#: templates/settings/settings.php:6 includes/public/class-vlp-settings.php:50
+msgid "Documentation"
+msgstr "Documentación"
+
+#: assets/js/blocks/visual-link-preview/edit/ImageSelect.js:56
+msgid "Choose Image"
+msgstr "Elige imagen"
+
+#: templates/settings/settings.php:13
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:90
+msgid "Template"
+msgstr "Plantilla"
+
+#. Author URI of the plugin
+msgid "http://bootstrapped.ventures/"
+msgstr "http://bootstrapped.ventures/"
+
+#. Author of the plugin
+msgid "Bootstrapped Ventures"
+msgstr "Bootstrapped Ventures"
+
+#. Description of the plugin
+msgid "Display a fully customizable visual link preview for any internal or external link."
+msgstr "Muestra una vista previa del enlace visual, totalmente personalizable, para cualquier enlace interno o externo."
+
+#. Plugin URI of the plugin
+msgid "http://bootstrapped.ventures/visual-link-preview/"
+msgstr "http://bootstrapped.ventures/visual-link-preview/"
+
+#. Plugin Name of the plugin
+#: assets/js/blocks/visual-link-preview/index.js:16
+msgid "Visual Link Preview"
+msgstr "Visual Link Preview"
+
+#: templates/settings/settings.php:121
+msgid "Inset"
+msgstr "Encastre"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:69
+msgid "Summary"
+msgstr "Resumen"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:64
+msgid "Title"
+msgstr "Título"
+
+#: assets/js/blocks/visual-link-preview/edit/ImageSelect.js:69
+msgid "Remove Image"
+msgstr "Eliminar imagen"
+
+#: templates/settings/settings.php:145
+msgid "Image"
+msgstr "Imagen"
+
+#: assets/js/blocks/visual-link-preview/edit/PostSelect.js:24
+msgid "Select a post or page"
+msgstr "Selecciona una entrada o página"
+
+#: assets/js/blocks/visual-link-preview/edit/Sidebar.js:57
+msgid "External Link"
+msgstr "Enlace externo"
+
+#: includes/admin/class-vlp-assets.php:47
+msgid "Use Image"
+msgstr "Utilizar imagen"
+
+#: includes/admin/class-vlp-assets.php:46
+msgid "Select or Upload Image"
+msgstr "Seleccionar o subir una imagen"

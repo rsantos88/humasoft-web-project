@@ -1,0 +1,39 @@
+.vlp-template-default {
+    border: 1px solid #444;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    display: flex;
+}
+
+.vlp-template-default .vlp-link-image-container {
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.vlp-template-default .vlp-link-image {
+    font-size: 0;
+    padding-right: 10px;
+}
+
+.vlp-template-default .vlp-link-image img {
+    width: 100%;
+}
+
+.vlp-template-default .vlp-link-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+@media all and (max-width: 450px) {
+    .vlp-template-default {
+        flex-wrap: wrap;
+    }
+    .vlp-template-default .vlp-link-image-container {
+        margin: 0 auto;
+    }
+    .vlp-template-default .vlp-link-image {
+        padding-right: 0;
+    }
+}

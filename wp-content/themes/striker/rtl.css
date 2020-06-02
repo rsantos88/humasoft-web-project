@@ -1,0 +1,203 @@
+/* body {direction:rtl;} */
+
+caption, th, td{
+    text-align: right;
+}
+
+ul, ol{
+    margin: 0 0.5em 1.5em 0 ;
+}
+
+ul ul, ol ol, ul ol, ol ul{
+    margin-right: 1.5em;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+    border-color: #ccc #ccc #bbb #ccc ;
+}
+
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+    border-color: #ccc #bbb #aaa #bbb ;
+}
+
+button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, html input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active{
+    border-color: #aaa #bbb #bbb #bbb ;
+}
+
+textarea{
+    padding-right: 3px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+#calendar_wrap{
+    padding-right: 6px;
+}
+
+.textwidget{
+    padding-right: 6px;
+}
+
+.screen-reader-text:focus{
+    right: 5px;
+}
+
+#primary{
+    float: right;
+    margin: 0 0 0 -24% ;
+}
+
+#primary_home{
+    float: right;
+}
+
+#content{
+    margin: 0 0 0 27% ;
+}
+
+#content.fullwidth{
+    margin-left: 0;
+}
+
+#secondary, #tertiary{
+    float: left;
+    margin: 1em 0 0 1em ;
+}
+
+.main-navigation{
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+.main-navigation ul{
+    float: right;
+}
+
+.main-navigation li{
+    float: right;
+}
+
+.main-navigation a{
+    margin-left: 1em;
+}
+
+.main-navigation ul ul{
+    float: right;
+    right: 0em;
+}
+
+.main-navigation ul ul a{
+    padding: 0 0.5em 0 0 ;
+}
+
+.main-navigation ul ul ul{
+    right: 100%;
+}
+
+.menu-toggle{
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+.main-small-navigation .menu{
+    padding-right: 30px;
+}
+
+.sticky h2 a{
+    border-radius: 0.2em 0.2em 0 0;
+}
+
+.entry-content table, .comment-content table{
+    border-right-width: 0;
+    margin: 0 0 2.083em -0.083em ;
+    text-align: right;
+}
+
+.entry-content tr th, .entry-content thead th, .comment-content tr th, .comment-content thead th{
+    border-right: 1px solid #d9d9d9;
+}
+
+.entry-content tr td, .comment-content tr td{
+    border-width: 1px 1px 0 0 ;
+}
+
+.entry-content ul li{
+    margin-right: 1em;
+}
+
+.entry-content ol{
+    margin: 0 1.5em 1.5em 0 ;
+}
+
+.format-aside .entry-content{
+    border-right: 4px solid rgba( 0, 0, 0, 0.1 );
+    padding-right: 1em;
+}
+
+.site-content .nav-previous{
+    float: right;
+}
+
+.site-content .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.children{
+    margin: 0 6% 0 0 ;
+}
+
+.commentlist li.comment, .commentlist li.pingback{
+    padding-right: 2.5em;
+}
+
+.comment .avatar{
+    float: right;
+    margin-left: 1.25em;
+}
+
+.comment-content{
+    margin: 1em 4.5em 0 0 ;
+}
+
+.comment .reply{
+    text-align: left;
+}
+
+#commentform input[type="text"]{
+    margin-right: 0.5em;
+}
+
+.social-media{
+    left: 20px;
+}
+
+.social-media li{
+    float: right;
+}
+
+#smoothup{
+    left: 20px;
+}
+
+.col{
+    float: right;
+    margin: 1% 1.6% 1% 0 ;
+}
+
+.col:first-child{
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 480px){
+    .col{
+        margin: 1% 0% 1% 0 ;
+    }
+
+}
